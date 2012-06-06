@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.6.6)  6 JUN 2012 14:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  6 JUN 2012 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -32,8 +32,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-No file hwk3.aux.
+) (./hwk3.aux)
 \openout1 = `hwk3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -48,16 +47,25 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
+
 [1
 
-] (./hwk3.aux) ) 
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./hwk3.aux) ) 
 Here is how much of TeX's memory you used:
- 198 strings out of 493611
- 2112 string characters out of 3142449
+ 201 strings out of 493610
+ 2140 string characters out of 3142426
  49291 words of memory out of 3000000
  3596 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  23i,4n,17p,151b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb>
+Output written on hwk3.pdf (1 page, 13499 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on hwk3.dvi (1 page, 244 bytes).

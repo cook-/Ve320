@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.6.6)  14 JUN 2012 18:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.6.6)  14 JUN 2012 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -90,8 +90,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-)
-No file hwk4.aux.
+) (./hwk4.aux)
 \openout1 = `hwk4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -111,16 +110,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[1
 
-] (./hwk4.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+! Undefined control sequence.
+l.14 \hspace{8.5mm} \(\rou
+                           \) \\
+? x
+ 
 Here is how much of TeX's memory you used:
- 799 strings out of 493611
- 8910 string characters out of 3142449
+ 817 strings out of 493611
+ 9104 string characters out of 3142449
  58163 words of memory out of 3000000
- 4180 multiletter control sequences out of 15000+200000
- 3940 words of font info for 15 fonts, out of 3000000 for 9000
+ 4191 multiletter control sequences out of 15000+200000
+ 7053 words of font info for 26 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 27i,4n,20p,225b,109s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on hwk4.dvi (1 page, 284 bytes).
+ 27i,3n,20p,225b,63s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

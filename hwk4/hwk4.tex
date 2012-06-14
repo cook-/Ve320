@@ -2,6 +2,7 @@
 \usepackage{amsmath}
 \everymath{\displaystyle}
 \setlength\parindent{0pt}
+\setlength\textwidth{14cm}
 \begin{document}
 
 \begin{center}Assignment3\\\end{center}
@@ -13,19 +14,85 @@
 
 \hspace{8.5mm} \(\rho=\frac{1}{q(\mu_nn+\mu_pp)}=\frac{1}{q(\mu_n+\mu_p)n_i}\) \\
 
-\hspace{8.5mm} \(\rho(Ge,300K)=\frac{1}{(1.6\times10^{-19})(4000+1900)(2.5\times10^{13})}=42.4 (\Omega-cm)\) \\
+\hspace{8.5mm} \(\rho(Ge)=\frac{1}{(1.6\times10^{-19})(4000+1900)(2.5\times10^{13})}=42.4 (\Omega\cdot cm)\) \\
 
-\hspace{8.5mm} \(\rho(Si,300K)=\frac{1}{(1.6\times10^{-19})(1358+461)(1.0\times10^{10})}=3.44\times10^5 (\Omega-cm)\) \\
+\hspace{8.5mm} \(\rho(Si)=\frac{1}{(1.6\times10^{-19})(1358+461)(1.0\times10^{10})}=3.44\times10^5 (\Omega\cdot cm)\) \\
 
-\hspace{8.5mm} \(\rho(GaAs,300K)=\frac{1}{(1.6\times10^{-19})(8000+400)(2.25\times10^6)}=331\times10^8 (\Omega-cm)\) \\
+\hspace{8.5mm} \(\rho(GaAs)=\frac{1}{(1.6\times10^{-19})(8000+400)(2.25\times10^6)}=331\times10^8 (\Omega\cdot cm)\) \\
 
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
-\hspace{8.5mm} \(\) \\
+\quad (b) \(\rho=\frac{1}{q(\mu_nn+\mu_pp)}=\frac{1}{q(\mu_nn+\mu_pn_i^2/n)}\) \\
+
+\hspace{8.5mm}\quad \(\leq\frac{1}{q2\sqrt{(\mu_nn)(\mu_pn_i^2/n)}}=\frac{1}{2q\sqrt{\mu_n\mu_p}n_i}\) \\
+
+\hspace{8.5mm} So when \(\mu_nn=\mu_pn_i^2/n\), which implies \(n=\sqrt{\mu_n\mu_p}n_i\) \\
+
+\hspace{8.5mm} \(\rho_{max}=\frac{1}{2q\sqrt{\mu_n\mu_p}n_i}\) \\
+
+\hspace{8.5mm} \(\rho_{max}(Ge)=\frac{1}{2(1.6\times10^{-19})\sqrt{4000\times1900}(2.5\times10^{13})}=45.3 (\Omega\cdot cm)\) \\
+
+\hspace{8.5mm} \(\rho_{max}(Si)=\frac{1}{2(1.6\times10^{-19})\sqrt{1358\times461}(1.0\times10^{10})}=3.95\times10^5 (\Omega\cdot cm)\) \\
+
+\hspace{8.5mm} \(\rho_{max}(GaAs)=\frac{1}{2(1.6\times10^{-19})\sqrt{8000\times400}(2.25\times10^6)}=7.76\times10^8 (\Omega\cdot cm)\) \\
+
+2.\:(a) For \(p\)-type semiconductor, \(N_A=p\) \\
+
+\hspace{8.5mm} Then \(N_0e^{-x/x_0}+N_AB=n_ie^{(E_i(x)-E_F)/kT}\) \\
+
+\hspace{8.5mm} Then \(E_i(x)-E_F=kTln[\frac{1}{n_i}(N_0e^{-x/x_0}+N_{AB})]=0.0259ln(10^8e^{-x/10^4}+10^5)\) \\
+
+\quad (b) When \(x\gg x_0\), \\
+
+\hspace{8.5mm} \(e^{-x/x_0}\rightarrow0\) \\
+
+\hspace{8.5mm} \(E_i(x)-E_F=\ \)constant \\
+
+\hspace{8.5mm} \(E=\frac{1}{q}\frac{dE_i(x)}{dx}=0\) \\
+
+\hspace{8.5mm} When \(x<x_0\), \\
+
+\hspace{8.5mm} \(E=\frac{1}{q}\frac{dE_i(x)}{dx}=0.00259(\frac{1}{e^{-x/10^4}+1}-1)\) \\
+
+3.\:(a) Yes. The semiconductor is in equilibrium because the Fermi level has the same \\
+
+energy at different positions. \\
+
+\quad (e) \(n=n_ie^{(E_F-E_i)/kT}\) \\
+
+\hspace{8.5mm} \(p=n_ie^{(E_i-E_F)/kT}\) \\
+
+4.\: At equilibrium and 1-Dimensional case, \\
+
+\quad\:  For electron, \\
+
+\hspace{8.5mm} \(J_N=J_{N|drift}+J_{N|diff}=q\mu_nnE+qD_N\frac{dn}{dx}=0\) \\
+
+\quad\: However, \\
+
+\hspace{8.5mm} \(E=\frac{1}{q}\frac{dE_i}{dx},\ n=n_ie^{(E_F-E_i)/kT}\) \\
+
+\quad\: Then \(\frac{dn}{dx}=\frac{d}{dx}n_ie^{(E_F-E_i)/kT}=-\frac{n_i}{kT}e^{(E_F-E_i)/kT}\frac{dE_i}{dx}=-\frac{n}{kT}qE\) \\
+
+\hspace{8.5mm} \(\Rightarrow q\mu_nnE-qD_N\frac{n}{kT}qE=0\) \\
+
+\hspace{8.5mm} \(\Rightarrow\frac{D_N}{\mu_n}=\frac{kT}{q}\) \\
+
+\quad\: Similarly, for holes, \\
+
+\hspace{8.5mm} \(\frac{D_P}{\mu_p}=\frac{kT}{q}\) \\
+
+5.\: \(\frac{\partial\Delta n_p}{\partial t}=D_N\frac{\partial^2\Delta n_p}{\partial x^2}-\frac{\Delta n_p}{\tau_n}+G_L\) \\
+
+\quad\: \(\Rightarrow\frac{d\Delta n_p}{dt}=-\frac{\Delta n_p}{\tau_n}+\frac{G_{L0}}{2}\) \\
+
+\quad\: \(\Rightarrow\Delta n_p(t)=\frac{G_{L0}\tau_n}{2}+Ae^{-t/\tau_n}\) \\
+
+\quad\: Boundary condition, \(n_p(0)=G_{L0}\tau_n=10^{16}\times10^{-6}=10^{10}\) \\
+
+\quad\: Then \(A=\frac{G_{L0}\tau_n}{2}\) \\
+
+\quad\: So \(\Delta n_p(t)=\frac{G_{L0}\tau_n}{2}(1+e^{-t/\tau_n})=5\times10^9(1+e^{-10^6t})\) \\
+
+6.\: \(\) \\
+
+
 \end{document}

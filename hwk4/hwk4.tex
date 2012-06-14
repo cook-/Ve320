@@ -7,9 +7,6 @@
 
 \begin{center}Assignment3\\\end{center}
 \begin{flushright}Yuan Xiaojie\\5093709092\\\end{flushright}
-
-\ \\
-
 1.\:(a) For intrinsic semiconductor, \(n=p=n_i\) \\
 
 \hspace{8.5mm} \(\rho=\frac{1}{q(\mu_nn+\mu_pp)}=\frac{1}{q(\mu_n+\mu_p)n_i}\) \\
@@ -33,12 +30,15 @@
 \hspace{8.5mm} \(\rho_{max}(Si)=\frac{1}{2(1.6\times10^{-19})\sqrt{1358\times461}(1.0\times10^{10})}=3.95\times10^5 (\Omega\cdot cm)\) \\
 
 \hspace{8.5mm} \(\rho_{max}(GaAs)=\frac{1}{2(1.6\times10^{-19})\sqrt{8000\times400}(2.25\times10^6)}=7.76\times10^8 (\Omega\cdot cm)\) \\
+\\ 
 
 2.\:(a) For \(p\)-type semiconductor, \(N_A=p\) \\
 
 \hspace{8.5mm} Then \(N_0e^{-x/x_0}+N_AB=n_ie^{(E_i(x)-E_F)/kT}\) \\
 
 \hspace{8.5mm} Then \(E_i(x)-E_F=kTln[\frac{1}{n_i}(N_0e^{-x/x_0}+N_{AB})]=0.0259ln(10^8e^{-x/10^4}+10^5)\) \\
+
+\hspace{8.5mm} (Plot is on the attached paper.) \\
 
 \quad (b) When \(x\gg x_0\), \\
 
@@ -50,15 +50,19 @@
 
 \hspace{8.5mm} When \(x<x_0\), \\
 
-\hspace{8.5mm} \(E=\frac{1}{q}\frac{dE_i(x)}{dx}=0.00259(\frac{1}{e^{-x/10^4}+1}-1)\) \\
+\hspace{8.5mm} \(E=\frac{1}{q}\frac{dE_i(x)}{dx}=0.00259(\frac{1}{e^{-x/10^4}+1}-1) (V/m)\) \\
+\\
 
 3.\:(a) Yes. The semiconductor is in equilibrium because the Fermi level has the same \\
 
-energy at different positions. \\
+\quad energy at different positions. \\
 
 \quad (e) \(n=n_ie^{(E_F-E_i)/kT}\) \\
 
 \hspace{8.5mm} \(p=n_ie^{(E_i-E_F)/kT}\) \\
+
+\hspace{8.5mm} (Plots are on the attached paper.) \\
+\\
 
 4.\: At equilibrium and 1-Dimensional case, \\
 
@@ -79,6 +83,7 @@ energy at different positions. \\
 \quad\: Similarly, for holes, \\
 
 \hspace{8.5mm} \(\frac{D_P}{\mu_p}=\frac{kT}{q}\) \\
+\\
 
 5.\: \(\frac{\partial\Delta n_p}{\partial t}=D_N\frac{\partial^2\Delta n_p}{\partial x^2}-\frac{\Delta n_p}{\tau_n}+G_L\) \\
 
@@ -86,34 +91,37 @@ energy at different positions. \\
 
 \quad\: \(\Rightarrow\Delta n_p(t)=\frac{G_{L0}\tau_n}{2}+Ae^{-t/\tau_n}\) \\
 
-\quad\: Boundary condition, \(n_p(0)=G_{L0}\tau_n=10^{16}\times10^{-6}=10^{10}\) \\
+\quad\: Boundary condition, \(n_p(0)=G_{L0}\tau_n=10^{16}\times10^{-6}=10^{10} (cm^{-3})\) \\
 
 \quad\: Then \(A=\frac{G_{L0}\tau_n}{2}\) \\
 
-\quad\: So \(\Delta n_p(t)=\frac{G_{L0}\tau_n}{2}(1+e^{-t/\tau_n})=5\times10^9(1+e^{-10^6t})\) \\
+\quad\: So \(\Delta n_p(t)=\frac{G_{L0}\tau_n}{2}(1+e^{-t/\tau_n})=5\times10^9(1+e^{-10^6t}) (cm^{-3})\) \\
+\\
 
-6.\: (a) \(n_0=n_ie^{(E_F-E_i)/kT}=10^{10}e^{0.3/0.00259}=1.07\times10^{15}\) (cm\(^{-3}\)) \\
+6. (a) \(n_0=n_ie^{(E_F-E_i)/kT}=10^{10}e^{0.3/0.00259}=1.07\times10^{15} (cm^{-3})\) \\
 
-\hspace{8.5mm} \(p_0=n_ie^{(E_i-E_F)/kT}=10^{10}e^{-0.3/0.00259}=9.32\times10^4\) (cm\(^{-3}\)) \\
+\hspace{8.5mm} \(p_0=n_ie^{(E_i-E_F)/kT}=10^{10}e^{-0.3/0.00259}=9.32\times10^4 (cm^{-3})\) \\
 
-\quad (b) \(n=n_ie^{(E_N-E_i)/kT}=10^{10}e^{0.318/0.00259}=2.15\times10^{15}\) (cm\(^{-3}\)) \\
+\quad (b) \(n=n_ie^{(E_N-E_i)/kT}=10^{10}e^{0.318/0.00259}=2.15\times10^{15} (cm^{-3})\) \\
 
-\hspace{8.5mm} \(p=n_ie^{(E_i-E_P)/kT}=10^{10}e^{0.3/0.00259}=1.07\times10^{15}\) (cm\(^{-3}\)) \\
+\hspace{8.5mm} \(p=n_ie^{(E_i-E_P)/kT}=10^{10}e^{0.3/0.00259}=1.07\times10^{15} (cm^{-3})\) \\
 
-\quad (c) \(N_D\cong n_0=1.07\times10^{15}\) (cm\(^{-3}\)) \\
+\quad (c) \(N_D\cong n_0=1.07\times10^{15} (cm^{-3})\) \\
 
-\quad (d) No. Because for low level injection, \(\Delta p\ll n_0\) must be satisfied. However, in this case, \(\Delta p=p-p_0\congn_0\).
+\quad (d) No. Because for low level injection, \(\Delta p\ll n_0\) must be satisfied. However, in \\
+
+\quad this case, \(\Delta p=p-p_0\cong n_0\). \\
 
 \quad (e) Before illumination, \\
 
 \hspace{8.5mm} \(\rho=\frac{1}{q(\mu_nn+\mu_pp)}\cong\frac{1}{q\mu_nN_D}\) \\
 
-\hspace{8.5mm}\quad \(\frac{1}{(1.6\times10^{-19})(1345)(1.07\times10^{15})}=4.34 (\Omega\cdot cm)\) \\
+\hspace{8.5mm}\quad \(=\frac{1}{(1.6\times10^{-19})(1345)(1.07\times10^{15})}=4.34 (\Omega\cdot cm)\) \\
 
 \hspace{8.5mm} After illumination, \\
 
 \hspace{8.5mm} \(\rho=\frac{1}{q(\mu_nn+\mu_pp)}\) \\
 
-\hspace{8.5mm}\quad \(=\frac{1}{(1.6\times10^{-19})[(1345)(2.15\times10^{15})+(458)(1.07\times10^{15})]}=1.85 (\Omega\codt cm)\) \\
+\hspace{8.5mm}\quad \(=\frac{1}{(1.6\times10^{-19})[(1345)(2.15\times10^{15})+(458)(1.07\times10^{15})]}=1.85 (\Omega\cdot cm)\) \\
 
 \end{document}
